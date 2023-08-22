@@ -1,0 +1,336 @@
+https://github.com/ (create account)
+https://github.com/Aakashdeveloper (Follow)
+https://code.visualstudio.com/ (download & install)
+https://git-scm.com/downloads ( to talk to github)
+https://www.youtube.com/developerfunnel (Subscribe)
+https://nodejs.org/en/ (download & install)
+https://www.postman.com/ (install)
+https://dashboard.heroku.com/ (Signup)
+linkedIn (Signup)
+stackoverflow (signup)
+
+node -v (to check node version)
+
+4 modules
+7 different
+
+1> Zomato
+2> Your Choice
+3> Your Profile Website
+
+4 mini project 
+calc
+darklight
+weather
+geolocation
+
+>>>>>>>>>>>><<<<<<<<<<<<<<
+HTML/html5  >> Raw Structure
+Css/css3 >>> Look & Feel (Design)
+Bootstrap3,4,5 >>> Responsive
+JavaScript >>> Logics
+
+Nodejs > Backend
+MongoDb > Database
+React > Frontend
+
+head> all the linking 
+        (css, javascript )
+body > All the content that is visible to the user
+
+
+Block Level
+> Start From the new line
+> Take whole width of screen
+> p div section
+Inline 
+> Start in the same line
+> Only take space which is required
+> span a img
+
+
+Name
+Links (Social)
+Your Image
+About You
+Skills 
+Hoobies (optional)
+map
+copyright
+
+inline > styletag > stylesheet
+
+#inline
+{
+  color:red;
+  font-size:30px;
+}
+
+#styletag
+{
+  color:orange;
+  height:200px;
+  width:300px;
+}
+
+#stylesheet
+{
+  height:400px;
+  border:black;
+  font-size:40px
+}
+
+{
+  color:red;
+  font-size:30px;
+  height:200px;
+  width:300px;  
+  border:black;
+}
+
+
+3 Ways to target
+> tagName
+ # h1 , p, div
+ # if we target by tagname all the tag of same type will get the property
+> Id
+# we use hash symbole(#) for id
+# this is use to target indiviual element 
+> ClassName
+# we use dot symbole(.) for id
+# when we have to target group of element(multiple Element)
+
+solid
+dotted
+double
+groove
+dahsed
+
+https://owlcarousel2.github.io/OwlCarousel2/demos/basic.html
+
+https://www.w3schools.com/howto/default.asp
+
+Bootstrap3
+768px < xs
+768px> sm
+992px> md
+1200px > lg
+
+
+Bootstrap4
+576px < col-
+576px > sm
+768px > md
+992px > lg
+1200px > xl
+
+Bootstrap5
+
+576px < col-
+576px > sm
+768px > md
+992px > lg
+1200px > xl
+1400px > xxl
+
+////////////////////////////
+Ecma Script5
+Ecma Script6
+es5
+es6
+
+//es5
+function add(a,b){
+  return a+b
+}
+
+//es6
+let add  = (a,b) => { return a+b}
+
+
+https://api.openweathermap.org/data/2.5/forecast/daily?lat=28.9890667&lon=77.0342225&mode=json&units=metric&cnt=5&appid=fbf712a5a83d7305c3cda4ca8fe7ef29
+
+
+https://zomatoajulypi.herokuapp.com/location
+https://zomatoajulypi.herokuapp.com/restaurant?stateId=4
+
+
+regex > regular expression
+
+
+
+STEP FOR DATA
+> Write down all the pages you are going to have in your website
+> Start creating data
+
+> Home Pages
+> Listing Page
+> Details Page
+> Place Order Page
+> Order listing
+
+* List of City
+* List of Restaurant
+* QuickSearch List
+* List Of Menu
+
+
+# NodeJs
+> Single threaded Asynchronous Non Block input/output(I/O)
+
+Open Source
+> Anybody can contribute to development
+
+Code 
+  ||
+  \/
+  Machine Code
+
+> NodeJs do not require any server to compile
+
+Node Inbuilt
+OS
+FS
+HTTP
+
+
+///////Package.json////////
+> Starting point to the app
+> It Contains all the packages we require
+> It Conatins the scripts to run the app
+> Meta Data (Description of the app)
+
+// Step to generate package.json////
+**NodeJs must be install in laptop
+> go inside the folder using cmd
+> npm init
+> Answer all questions
+> Type "yes"
+
+// Step to install packages///
+**NodeJs must be install in laptop
+> go inside the folder using cmd
+(Local)
+> npm i packagename / npm install packagename
+(Dev)(Only require at time of development)
+> npm i --save-dev packagename
+
+
+// Step to install Global packages///
+> Open the cmd as adminstrator
+> npm i -g packagename
+
+# mac/linux
+> open terminal
+> sudo npm i -g packagename
+
+Local
+GLobal
+Dev Dependency
+
+
+C > Create (POST)
+R > Read (GET)
+U > Update (PUT)
+D > Delete (DELETE)
+
+
+/////////
+Nodemon
+
+params
+> what we pass after /
+> it is complusory to define in route
+> use to pass 1 or 2 value
+
+queryparams
+> what we pass after ?
+> no need to define
+> use to pass multiple values
+
+
+
+npm i -g heroku
+heroku login
+heroku apps
+heroku logs --app apname --tail
+
+https://dashboard.paytm.com/
+
+
+React
+> react is a frontend framework/lib which help
+to build single page applications
+using component based structures
+
+
+https://medium.com/techmagic/reactjs-vs-angular5-vs-vue-js-what-to-choose-in-2018-b91e028fa91d
+
+
+////step to generate react app
+> open cmd
+> go inside the folder
+> npx create-react-app appname
+
+
+react > this is the main package
+react-dom > This will help to render the content
+react-scripts > This will help you to run the app
+
+/////////
+Functional
+> Dumb component
+> Mainly we use for the display purpose
+> We cannot maintain state
+
+
+Class
+> Logical Component
+> We use for logics, calling api, display as well
+> We can maintain the state
+
+
+
+Hooks
+
+
+//////
+State
+> State act like a local variable
+> Each component can have its own state
+> We can update the value of state
+
+Props
+> Props help to transfer data between nested component
+> We cannot update the value of props
+
+
+
+parent> child (props)
+child > parent (props with function)
+
+
+///default props
+History > for redirection
+Location > for query params
+Match > for params
+
+(get) cityname >           https://zomatoajulypi.herokuapp.com/location
+(get) restwrtcity >        https://zomatoajulypi.herokuapp.com/restaurant?stateId=1
+(get) quickSearch>         https://zomatoajulypi.herokuapp.com/quicksearch
+
+(get) onbasisofMeal >      https://zomatoajulypi.herokuapp.com/restaurant?mealtype_id=
+(get) cuisinefilter >      https://zomatoajulypi.herokuapp.com/filter/4?cuisine=1
+(get) costfilter >         https://zomatoajulypi.herokuapp.com/filter/1?hcost=1000&lcost=500
+
+(get) restdetails >        http://zomatoajulypi.herokuapp.com/details/1
+(get) menu >               https://zomatoajulypi.herokuapp.com/menu/1
+
+(post) orderspage >        http://zomatoajulypi.herokuapp.com/menuItem
+                           body [1,4,5]
+(post)placeOrder >        
+
+(get) allorder>            
+       
+(get) restaurants>         https://zomatoajulypi.herokuapp.com/restaurants
+https://developerpayment.herokuapp.com/paynow
